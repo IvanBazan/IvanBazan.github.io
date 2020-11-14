@@ -19,17 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b2d3aed-5823-42a3-b91c-b416080b9fbb" name="Default Changelist" comment="OG image change II">
-      <change afterPath="$PROJECT_DIR$/images/slider/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/slider/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/slider/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/slider/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/slider/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/sliderStyle.css" afterDir="false" />
+    <list default="true" id="9b2d3aed-5823-42a3-b91c-b416080b9fbb" name="Default Changelist" comment="Favicon added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +71,7 @@
       <updated>1604865831648</updated>
       <workItem from="1604865833235" duration="11214000" />
       <workItem from="1605274926327" duration="3463000" />
-      <workItem from="1605288268373" duration="11889000" />
+      <workItem from="1605288268373" duration="13161000" />
     </task>
     <task id="LOCAL-00001" summary="OG head">
       <created>1605302150522</created>
@@ -96,7 +87,35 @@
       <option name="project" value="LOCAL" />
       <updated>1605302891812</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Slider added">
+      <created>1605390825668</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605390825669</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Link to slider">
+      <created>1605390944614</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605390944614</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Twitter meta">
+      <created>1605391373482</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605391373482</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Favicon added">
+      <created>1605391845282</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605391845282</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,7 +135,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="OG head" />
     <MESSAGE value="OG image change II" />
-    <option name="LAST_COMMIT_MESSAGE" value="OG image change II" />
+    <MESSAGE value="Slider added" />
+    <MESSAGE value="Link to slider" />
+    <MESSAGE value="Twitter meta" />
+    <MESSAGE value="Favicon added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Favicon added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="522" y="236" key="#Notifications" timestamp="1605278088367">
@@ -135,9 +158,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605278170590" />
-    <state x="355" y="125" key="Vcs.Push.Dialog.v2" timestamp="1605302895135">
+    <state x="355" y="125" key="Vcs.Push.Dialog.v2" timestamp="1605391864966">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="355" y="125" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605302895135" />
+    <state x="355" y="125" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605391864966" />
   </component>
 </project>
