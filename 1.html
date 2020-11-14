@@ -2,9 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>1</title>
+    <title>Gallery slider page</title>
+    <link href="styles/sliderStyle.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+<div class="slidercontainer">
+    <div class="showSlide fade">
+        <img src="images/slider/1.jpg" />
+        <div class="content">Lorem ipsum dolor sit amet</div>
+    </div>
+    <div class="showSlide fade">
+        <img src="images/slider/2.jpg"/>
+        <div class="content">Lorem ipsum dolor sit amet</div>
+    </div>
 
+    <div class="showSlide fade">
+        <img src="images/slider/3.jpg"/>
+        <div class="content">Lorem ipsum dolor sit amet</div>
+    </div>
+    <div class="showSlide fade">
+        <img src="images/slider/4.jpg"/>
+        <div class="content">Lorem ipsum dolor sit amet</div>
+    </div>
+    <div class="showSlide fade">
+        <img src="images/slider/5.jpg"/>
+        <div class="content">Lorem ipsum dolor sit amet</div>
+    </div>
+    <!-- Navigation arrows -->
+    <a class="left" onclick="nextSlide(-1)">❮</a>
+    <a class="right" onclick="nextSlide(1)">❯</a>
+</div>
+
+<li class="nav-dots">
+    <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+    <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+    <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+    <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+    <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+</li>
+
+<script src="scripts/slider.js"></script>
 </body>
 </html>
