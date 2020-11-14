@@ -6,6 +6,7 @@ myImage.onclick = function() {
         myImage.setAttribute ('src','images/cat1.png');
     } else {
         myImage.setAttribute ('src','images/firefox-icon.png');
+        window.location.href = "www.google.com"
     }
 };
 
