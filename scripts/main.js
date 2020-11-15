@@ -29,3 +29,9 @@ if(!localStorage.getItem('name')) {
 myButton.onclick = function() {
     setUserName();
 }
+
+var button3 = document.getElementById('b3')
+
+button3.onclick = function () {
+    window.location.href = '3.html';
+}
