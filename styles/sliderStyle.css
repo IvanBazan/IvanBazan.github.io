@@ -5,14 +5,19 @@ body {
 
 h1 {
     color: #00539F;
-    font-size: 15em;
+    font-size: 6em;
     text-align: center;
+    font-family: 'Sitka Banner';
 }
 
+h1:hover {
+    color: #560000;
+    text-decoration: none;
+}
 
 header {
-
-    margin-bottom: 10px;
+    background-color: #FFDA00;
+    margin-bottom: 8px;
     display: flex;
     flex-flow: row wrap;
 }
