@@ -16,3 +16,9 @@ function displaySlides(n) {
     }
     slides[slide_index - 1].style.display = "block";
 }
+
+var toHome = document.getElementsByClassName('toHome')
+
+toHome.onclick = function () {
+    window.location.href = 'index.html';
+}
