@@ -17,7 +17,7 @@ function displaySlides(n) {
     slides[slide_index - 1].style.display = "block";
 }
 
-var toHome = document.getElementsByClassName('toHome')
+var toHome = document.getElementById('toHome')
 
 toHome.onclick = function () {
     window.location.href = 'index.html';

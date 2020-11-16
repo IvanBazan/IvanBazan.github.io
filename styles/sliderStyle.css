@@ -39,6 +39,10 @@ nav {
     font-size: 3em;
 }
 
+nav ul li {
+    display: inline-block;
+}
+
 .outer {
     border: 5px solid black;
 }
