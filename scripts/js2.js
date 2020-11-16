@@ -11,8 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function createParagraph() {
         let para = document.createElement('p');
         para.textContent = 'You clicked the button!';
-        var game = document.getElementsByClassName('game')[0];
-        game.appendChild(para);
+        document.body.appendChild(para);
     }
 
     const buttons = document.querySelectorAll('button');
@@ -84,7 +83,8 @@ function setGameOver() {
     guessSubmit.disabled = true;
     resetButton = document.createElement('button');
     resetButton.textContent = 'Start new game';
-    document.body.appendChild(resetButton);
+    var game = document.getElementsByClassName('game')[0];
+    game.appendChild(resetButton);
     resetButton.addEventListener('click', resetGame);
 }
 
