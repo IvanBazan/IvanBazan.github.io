@@ -11,7 +11,8 @@ document.addEventListener("DOMContentLoaded", function() {
     function createParagraph() {
         let para = document.createElement('p');
         para.textContent = 'You clicked the button!';
-        document.body.appendChild(para);
+        var game = document.getElementsByClassName('game')[0];
+        game.appendChild(para);
     }
 
     const buttons = document.querySelectorAll('button');
