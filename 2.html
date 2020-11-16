@@ -6,12 +6,29 @@
     <meta name="author" content="Иван Б">
     <meta name="description" content="Задача MDN — в том, чтобы обучить
 новичков всему тому, что нужно им для разработки веб-сайтов и приложений.">
-
     <link rel="stylesheet" href="styles/style2.css">
 </head>
 <body>
 <h1>Meta examples</h1>
+<button>click</button>
 <p>Пример на японском: ご飯が熱い。</p>
 <script src="scripts/js2.js"></script>
+<div class = 'game'>
+    <h2>Number guessing game</h2>
+
+    <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
+
+    <div class="form">
+        <label for="guessField">Enter a guess: </label>
+        <input type="text" id="guessField" class="guessField">
+        <input type="submit" value="Submit guess" class="guessSubmit">
+    </div>
+
+    <div class="resultParas">
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHi"></p>
+    </div>
+</div>
 </body>
 </html>

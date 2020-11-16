@@ -12,3 +12,19 @@ ul {
 li {
     margin-left: 20px;
 }
+
+.game  {
+    margin: 35px auto;
+    padding: 0px 15px;
+    background-color: white;
+    font-family: sans-serif;
+    border: 5px black solid;
+    width: 60%;
+    max-width: 800px;
+    min-width: 480px;
+}
+
+.lastResult {
+    color: white;
+    padding: 3px;
+}
