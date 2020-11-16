@@ -1,6 +1,13 @@
 body {
     margin: 0;
     background: #e6e6e6;
+    background-color: pink;
+}
+
+@media (min-width: 60em) {
+    body {
+        background-color: #3e3e62;
+    }
 }
 
 h1 {
