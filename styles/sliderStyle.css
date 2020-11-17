@@ -84,6 +84,14 @@ header .toHome {
 .showSlide img {
     width: 100%;
 }
+
+.showSlide video {
+    border: solid 3px black;
+    margin: auto;
+    align-items: center;
+    align-content: center;
+}
+
 .slidercontainer {
     max-width: 1000px;
     position: relative;
