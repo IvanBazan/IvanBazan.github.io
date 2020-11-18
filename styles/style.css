@@ -9,6 +9,10 @@ h1 {
     text-align: center;
 }
 
+svg{
+
+}
+
 p, li {
     font-size: 16px;
     line-height: 2;
@@ -23,9 +27,9 @@ html {
 
 body {
     width: 600px;
-    margin: 0 auto;
+    margin: 2.5% auto;
     background-color: #FFDA00;
-    padding: 0 20px 20px 20px;
+    padding: 0px 20px 20px 20px;
     border: 5px solid black;
     image-orientation: flip;
 }
