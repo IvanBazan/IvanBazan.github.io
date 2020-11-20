@@ -1,0 +1,24 @@
+html, body{
+    height: 100%;
+    background: rgb(162,0,71);
+    background: radial-gradient(circle, rgba(162,0,71,1) 8%, rgba(2,0,40,1) 60%);
+    overflow: hidden;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    block-size: 40vw;
+    inline-size: 40vw;
+    border: white 5px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    rotation: 45deg;
+}

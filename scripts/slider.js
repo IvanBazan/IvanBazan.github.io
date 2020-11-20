@@ -20,5 +20,5 @@ function displaySlides(n) {
 var toHome = document.getElementById('toHome')
 
 toHome.onclick = function () {
-    window.location.href = 'index.html';
+    window.location.href = 'indexOld.html';
 }
