@@ -9,6 +9,9 @@ var ver = document.getElementById("ver");
 var hor = document.getElementById("hor");
 var dia = document.getElementById("dia");
 
+var topWrapper = document.getElementById("topWrapper");
+
+
 currentX = window.innerWidth / 100 * parseInt(ver.getAttribute('x1'));
 currentY = window.innerHeight / 100 * parseInt(ver.getAttribute('y1'));
 currentZ = window.innerHeight / 100 * parseInt(dia.getAttribute('y2'));
@@ -57,6 +60,8 @@ function moveRepere() {
         hor.setAttribute("y1", currentY);
         hor.setAttribute("y2", currentY);
         dia.setAttribute("y1", currentY);
+
+        topWrapper.style.setProperty('height', currentY.toString() + "px");
 
         // navigation.style.setProperty("height", currentY.toString() + "px");
         // if (!mobileView) {

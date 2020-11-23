@@ -19,9 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b2d3aed-5823-42a3-b91c-b416080b9fbb" name="Default Changelist" comment="Animation to new Index">
+    <list default="true" id="9b2d3aed-5823-42a3-b91c-b416080b9fbb" name="Default Changelist" comment="Zaxis without movement">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/repere.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/repere.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/styleIndex.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styleIndex.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +33,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -74,7 +76,7 @@
       <workItem from="1605274926327" duration="3463000" />
       <workItem from="1605288268373" duration="63124000" />
       <workItem from="1605638733004" duration="37350000" />
-      <workItem from="1605963816292" duration="10261000" />
+      <workItem from="1605963816292" duration="22765000" />
     </task>
     <task id="LOCAL-00001" summary="OG head">
       <created>1605302150522</created>
@@ -342,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606144922929</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Zaxis without movement">
+      <created>1606145500566</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1606145500566</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,7 +393,8 @@
     <MESSAGE value="Assesment Imaging" />
     <MESSAGE value="Refactoring" />
     <MESSAGE value="Animation to new Index" />
-    <option name="LAST_COMMIT_MESSAGE" value="Animation to new Index" />
+    <MESSAGE value="Zaxis without movement" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zaxis without movement" />
   </component>
   <component name="WindowStateProjectService">
     <state x="522" y="236" key="#Notifications" timestamp="1605278088367">
@@ -419,10 +429,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1606139173908" />
-    <state x="355" y="125" key="Vcs.Push.Dialog.v2" timestamp="1606144932723">
+    <state x="355" y="125" key="Vcs.Push.Dialog.v2" timestamp="1606145505304">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="355" y="125" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606144932723" />
+    <state x="355" y="125" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606145505304" />
     <state x="479" y="0" width="578" height="824" key="find.popup" timestamp="1605642798266">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
