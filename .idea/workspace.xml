@@ -19,12 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b2d3aed-5823-42a3-b91c-b416080b9fbb" name="Default Changelist" comment="Refactoring">
-      <change afterPath="$PROJECT_DIR$/scripts/newWrapperExample.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/repere.js" afterDir="false" />
+    <list default="true" id="9b2d3aed-5823-42a3-b91c-b416080b9fbb" name="Default Changelist" comment="Animation to new Index">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/styleIndex.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styleIndex.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +74,7 @@
       <workItem from="1605274926327" duration="3463000" />
       <workItem from="1605288268373" duration="63124000" />
       <workItem from="1605638733004" duration="37350000" />
-      <workItem from="1605963816292" duration="9505000" />
+      <workItem from="1605963816292" duration="10261000" />
     </task>
     <task id="LOCAL-00001" summary="OG head">
       <created>1605302150522</created>
@@ -338,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605913941600</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Animation to new Index">
+      <created>1606144922929</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1606144922929</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,7 +383,8 @@
     <MESSAGE value="Adaptable Imaging" />
     <MESSAGE value="Assesment Imaging" />
     <MESSAGE value="Refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
+    <MESSAGE value="Animation to new Index" />
+    <option name="LAST_COMMIT_MESSAGE" value="Animation to new Index" />
   </component>
   <component name="WindowStateProjectService">
     <state x="522" y="236" key="#Notifications" timestamp="1605278088367">
@@ -414,10 +419,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1606139173908" />
-    <state x="355" y="125" key="Vcs.Push.Dialog.v2" timestamp="1605913946953">
+    <state x="355" y="125" key="Vcs.Push.Dialog.v2" timestamp="1606144932723">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="355" y="125" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605913946953" />
+    <state x="355" y="125" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606144932723" />
     <state x="479" y="0" width="578" height="824" key="find.popup" timestamp="1605642798266">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

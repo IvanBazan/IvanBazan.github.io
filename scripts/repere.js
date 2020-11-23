@@ -74,10 +74,10 @@ function moveRepere() {
         //     detailContent.style.setProperty("margin-top", (window.innerHeight / 2).toString() + "px");
         // }
     }
-    if (Math.round(currentZ * 1000) / 1000 !== zTarget) {
-        currentZ = lerp(currentZ, zTarget, amt);
-        dia.setAttribute("y2", currentZ);
-    }
+    // if (Math.round(currentZ * 1000) / 1000 !== zTarget) {
+    //     currentZ = lerp(currentZ, zTarget, amt);
+    //     dia.setAttribute("y2", currentZ);
+    // }
 }
 
 function lerp(start, end, amt) {
