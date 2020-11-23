@@ -6,10 +6,312 @@
     <link rel="stylesheet" type="text/css" href="styles/styleIndex.css">
 </head>
 <body>
-    <main>
-        <div class="box">
-            <img src="images/index2/ivanLogo400.png">
-        </div>
-    </main>
+
+
+<!--        <div class="box">-->
+<!--&lt;!&ndash;            <img src="images/index2/ivanLogo400.png">&ndash;&gt;-->
+<!--        </div>-->
+
+
+    <svg id="bgSVG">
+        <line id="ver" x1="35%" y1="31%" x2="35%" y2="0%" vector-effect="non-scaling-stroke"></line>
+        <line id="hor" x1="35%" y1="31%" x2="100%" y2="31%" vector-effect="non-scaling-stroke"></line>
+        <line id="dia" x1="35%" y1="31%" x2="0%" y2="491.140475132476" vector-effect="non-scaling-stroke"></line>
+    </svg>
+
+<!--<div id="mainWrapper">-->
+<!--    <div id="topWrapper" style="margin-top: 0px; background-color: unset; overflow: hidden;">-->
+<!--        &lt;!&ndash; NAVIGATION &ndash;&gt;-->
+<!--        <div id="navigation" style="width: 525px; height: 138.38px;">-->
+<!--            <table>-->
+<!--                <tbody><tr>-->
+<!--                    <td>-->
+<!--                        <button id="homeBtn" class="active navButton" onclick="btnHandler(this)" name="homeButton">-->
+<!--                            <img src="/src/svg/Logo_Lines.svg" style="padding-left: 1px;">-->
+<!--                        </button>-->
+<!--                    </td><td>-->
+<!--                    <button id="projectsBtn" class="inactive navButton" onclick="btnHandler(this)" name="projectsButton">-->
+<!--                        <span style="float: left; line-height: 18px;"> →</span><span style="line-height: 22px;">​ PROJEKTE &nbsp;</span>-->
+<!--                    </button>-->
+<!--                </td>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <td>-->
+<!--                        &lt;!&ndash; BACK BUTTON &ndash;&gt;-->
+<!--                        <button id="backBtn" class="hidden" onclick="backButton()" name="backButton" style="opacity: 0;">-->
+<!--                            <span>←</span>-->
+<!--                        </button>-->
+<!--                    </td><td>-->
+<!--                    <button id="atelierBtn" class="inactive navButton" onclick="btnHandler(this)" name="atelierButton">-->
+<!--                        <span style="float: left; line-height: 18px;"> →</span><span style="line-height: 22px;">KONTAKT &nbsp;</span>-->
+<!--                    </button>-->
+<!--                </td>-->
+<!--                </tr>-->
+<!--                </tbody></table>-->
+<!--        </div>-->
+<!--        &lt;!&ndash; TOP CONTENT &ndash;&gt;-->
+<!--        <div id="topContent" style="width: 971px; height: 138.38px; display: block;">-->
+<!--            <div id="topHome" class="topContentContainer p0" style="height: 138.38px; margin-top: 0px; margin-left: -0.000452371px;">-->
+<!--                <div class="textContainer">-->
+<!--                    &lt;!&ndash; <h1><img src="src/svg/Logo_Text_Inline.svg" alt="Atelier Lomann GmbH">&emsp;ATELIER LOMANN GmbH</h1> &ndash;&gt;-->
+<!--                    <h1>¬ ​ ​Atelier Lomann</h1>-->
+<!--                    &lt;!&ndash; <h1>ATELIER LOMANN GmbH</h1> &ndash;&gt;-->
+<!--                </div>-->
+<!--                <div class="textContainer" style="font-family:Lomann-Symbols; text-align:right;">-->
+<!--                    A D G J-->
+<!--                </div>-->
+<!--                &lt;!&ndash; <div>-->
+<!--                  <img class="vertImage" src="src/svg/L.svg" alt="L">-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                  <img class="vertImage" src="src/svg/M.svg" alt="M">-->
+<!--                </div> &ndash;&gt;-->
+<!--            </div>-->
+<!--            <div id="topProjects" class="topContentContainer p1" style="height: 138.38px; margin-top: -6e-45px; margin-left: 1170.96px;">-->
+<!--                <div class="textContainer">-->
+<!--                    <p id="filterText" style="margin-top: 0px">Filter</p>-->
+<!--                </div>-->
+<!--                &lt;!&ndash; Filter system &ndash;&gt;-->
+<!--                <div id="filterContainer" onmouseout="changeFilterText('Filter')">-->
+<!--                    <ul style="margin-left: -1px;margin-top: -1px">-->
+<!--                        <li class="filterOne filterNeutral top" id="small" onmouseover="changeFilterText('Klein')">-->
+<!--                            <button onclick="filterSetActive(this, 'filterOne')"><span style="padding-left: 1px;">A</span></button>-->
+<!--                        </li>-->
+<!--                        <li class="filterOne filterInactive middle" id="medium" onmouseover="changeFilterText('Mittel')">-->
+<!--                            <button onclick="filterSetActive(this, 'filterOne')"><span style="padding-left: 1px;">B</span></button>-->
+<!--                        </li>-->
+<!--                        <li class="filterOne filterInactive bottom" id="large" onmouseover="changeFilterText('Gross')">-->
+<!--                            <button onclick="filterSetActive(this, 'filterOne')"><span style="padding-left: 1px;">C</span></button>-->
+<!--                        </li>-->
+<!--                    </ul><ul style="margin-top: -1px">-->
+<!--                    <li class="filterTwo filterNeutral top" id="unikat" onmouseover="changeFilterText('Unikat')">-->
+<!--                        <button onclick="filterSetActive(this, 'filterTwo')"><span style="padding-left: 1px;">D</span></button>-->
+<!--                    </li>-->
+<!--                    <li class="filterTwo filterInactive middle" id="industriell" onmouseover="changeFilterText('Industriell')">-->
+<!--                        <button onclick="filterSetActive(this, 'filterTwo')"><span style="padding-left: 1px;">E</span></button>-->
+<!--                    </li>-->
+<!--                    <li class="filterTwo filterInactive bottom" id="massenproduktion" onmouseover="changeFilterText('Massenproduktion')">-->
+<!--                        <button onclick="filterSetActive(this, 'filterTwo')"><span style="padding-left: 1px;">F</span></button>-->
+<!--                    </li>-->
+<!--                </ul><ul style="margin-top: -1px">-->
+<!--                    <li class="filterThree filterNeutral top" id="linear" onmouseover="changeFilterText('Linear')">-->
+<!--                        <button onclick="filterSetActive(this, 'filterThree')"><span style="padding-left: 1px;">G</span></button>-->
+<!--                    </li>-->
+<!--                    <li class="filterThree filterInactive middle" id="flächig" onmouseover="changeFilterText('Flächig')">-->
+<!--                        <button onclick="filterSetActive(this, 'filterThree')"><span style="padding-left: 1px;">H</span></button>-->
+<!--                    </li>-->
+<!--                    <li class="filterThree filterInactive bottom" id="räumlich" onmouseover="changeFilterText('Räumlich')">-->
+<!--                        <button onclick="filterSetActive(this, 'filterThree')"><span style="padding-left: 1px;">I</span></button>-->
+<!--                    </li>-->
+<!--                </ul><ul style="margin-left: 2px; margin-top: -1px">-->
+<!--                    <li class="filterFour filterNeutral top" id="grafik" onmouseover="changeFilterText('Grafik')">-->
+<!--                        <button onclick="filterSetActive(this, 'filterFour')"><span style="padding-left: 1px;">J</span></button>-->
+<!--                    </li>-->
+<!--                    <li class="filterFour filterInactive middle" id="objekt" onmouseover="changeFilterText('Objekt')">-->
+<!--                        <button onclick="filterSetActive(this, 'filterFour')"><span style="padding-left: 1px;">K</span></button>-->
+<!--                    </li>-->
+<!--                    <li class="filterFour filterInactive bottom" id="installation" onmouseover="changeFilterText('Installation')">-->
+<!--                        <button onclick="filterSetActive(this, 'filterFour')"><span style="padding-left: 1px;">L</span></button>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--                </div>-->
+
+<!--            </div>-->
+<!--            <div id="topAtelier" class="topContentContainer p2" style="height: 138.38px; margin-top: 338.376px; margin-left: 0px;">-->
+<!--                &lt;!&ndash; <div class="textContainer">-->
+<!--                    <h1>ATELIER LOMANN GmbH</h1>-->
+<!--                 </div>&ndash;&gt;-->
+<!--                <div class="textContainer" style="padding-left: 14px;">-->
+<!--                    <table>-->
+<!--                        <tbody><tr>-->
+<!--                            <td>¬  </td>-->
+<!--                            <td>Atelier Lomann GmbH</td>-->
+<!--                        </tr>-->
+
+<!--                        <tr>-->
+<!--                            <td>→  </td>-->
+<!--                            <td><a href="https://goo.gl/maps/vGX7mDNKmjXxtGKz8"> Althardstrasse 147</a></td>-->
+<!--                        </tr>-->
+<!--                        <tr>-->
+<!--                            <td></td>-->
+<!--                            <td>8105 Regensdorf (CH)</td>-->
+<!--                        </tr>-->
+<!--                        <tr>-->
+<!--                            <td><br></td>-->
+<!--                        </tr>-->
+<!--                        <tr>-->
+<!--                            <td>(T)</td>-->
+<!--                            <td>+41 (0) 43 557 53 95</td>-->
+<!--                        </tr>-->
+<!--                        <tr>-->
+<!--                            <td>(E)</td>-->
+<!--                            <td><a href="mailto:info@atelier-lomann.ch">info@atelier-lomann.ch</a></td>-->
+<!--                        </tr>-->
+<!--                        </tbody></table>-->
+<!--                </div>-->
+
+<!--                <div class="textContainer mobileHidden" style="padding-left: 14px;">-->
+<!--                    <table>-->
+<!--                        <tbody><tr>-->
+<!--                            <td>Founded by:<br> </td>-->
+<!--                            <td> Joel Tweitmann<br> Randy Looser</td>-->
+<!--                        </tr>-->
+<!--                        </tbody></table>-->
+<!--                </div>-->
+
+<!--            </div>-->
+<!--            <div id="topDetailContent" style="margin-left: 100vw;">-->
+<!--                <p id="detailDescription">POS Monolith<br>-->
+<!--                    Design Studie<br>-->
+<!--                    000x000x000 (mm)-->
+
+<!--                    Text hier-->
+<!--                    <a id="moreDetailsLink" onclick="showMoreDetailText()"><img id="moreDetailsImage" src="../src/svg/LM_plus.svg"></a></p>-->
+<!--                <div id="detailTag">-->
+<!--                    <img id="detailTagImage" src="projects/kontakt/label.svg">-->
+<!--                </div>-->
+<!--                <p id="additionalDetailDescription"></p>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <div id="bottomWrapper" style="margin-top: 0px; height: 271.62px; overflow: hidden; display: inline-block;">-->
+<!--        <div id="bottomContent" style="padding-left: 0.000456017px; width: 971px; margin-top: 271.62px;">-->
+
+<!--            &lt;!&ndash; ADD YOUR PROJECTS HERE &ndash;&gt;-->
+<!--            &lt;!&ndash; START OF BOTTOM CONTENT &ndash;&gt;-->
+<!--            <a class="projectContainer large unikat räumlich installation " onclick="openDetailView('hochstuhl_der_kuenste')" href="#">-->
+<!--                <img class="vertImage projectImage" src="projects/hochstuhl_der_kuenste_uebersicht.jpg">-->
+<!--                <div class="overlay">-->
+<!--                    <p>-->
+<!--                        Hochstuhl der Künste-->
+<!--                    </p>-->
+<!--                </div>-->
+<!--            </a>-->
+<!--            <a class="projectContainer large industriell räumlich objekt" onclick="openDetailView('monolith')" href="#">-->
+<!--                <img class="vertImage projectImage" src="projects/monolith_uebersicht.jpg">-->
+<!--                <div class="overlay">-->
+<!--                    <p>-->
+<!--                        Monolith-->
+<!--                    </p>-->
+<!--                </div>-->
+<!--            </a>-->
+<!--            <a class="projectContainer small industriell räumlich objekt" onclick="openDetailView('lolicase')" href="#">-->
+<!--                <img class="vertImage projectImage" src="projects/lolicase_uebersicht.jpg">-->
+<!--                <div class="overlay">-->
+<!--                    <p>-->
+<!--                        Lolicase-->
+<!--                    </p>-->
+<!--                </div>-->
+<!--            </a>-->
+<!--            <a class="projectContainer small unikat räumlich objekt" onclick="openDetailView('dot')" href="#">-->
+<!--                <img class="vertImage projectImage" src="projects/dot_uebersicht.jpg">-->
+<!--                <div class="overlay">-->
+<!--                    <p>-->
+<!--                        DOT-->
+<!--                    </p>-->
+<!--                </div>-->
+<!--            </a>-->
+<!--            <a class="projectContainer small massenproduktion räumlich objekt" onclick="openDetailView('salter')" href="#">-->
+<!--                <img class="vertImage projectImage" src="projects/salter_uebersicht.jpg">-->
+<!--                <div class="overlay">-->
+<!--                    <p>-->
+<!--                        Salter-->
+<!--                    </p>-->
+<!--                </div>-->
+<!--            </a>-->
+<!--            <a class="projectContainer large unikat räumlich installation" onclick="openDetailView('warenhaus')" href="#">-->
+<!--                <img class="vertImage projectImage" src="projects/warenhaus_uebersicht.jpg">-->
+<!--                <div class="overlay">-->
+<!--                    <p>-->
+<!--                        Warenhaus-->
+<!--                    </p>-->
+<!--                </div>-->
+<!--            </a>-->
+<!--            <a class="projectContainer small massenproduktion flächig grafik" onclick="openDetailView('ossur')" href="#">-->
+<!--                <img class="vertImage projectImage" src="projects/ossur_uebersicht.jpg">-->
+<!--                <div class="overlay">-->
+<!--                    <p>-->
+<!--                        Össur-->
+<!--                    </p>-->
+<!--                </div>-->
+<!--            </a>-->
+
+<!--            <a class="projectContainer flächig grafik small" onclick="openDetailView('vivonda')" href="#">-->
+<!--                <img class="vertImage projectImage" src="projects/vivonda_uebersicht.jpg">-->
+<!--                <div class="overlay">-->
+<!--                    <p>-->
+<!--                        Vivonda-->
+<!--                    </p>-->
+<!--                </div>-->
+<!--            </a>-->
+
+<!--            <a class="projectContainer unikat flächig grafik small" onclick="openDetailView('lq')" href="#">-->
+<!--                <img class="vertImage projectImage" src="projects/lq_uebersicht.jpg">-->
+<!--                <div class="overlay">-->
+<!--                    <p>-->
+<!--                        LQ-->
+<!--                    </p>-->
+<!--                </div>-->
+<!--            </a>-->
+
+
+
+<!--            &lt;!&ndash; BEISPIEL &ndash;&gt;-->
+<!--            &lt;!&ndash; <a class="projectContainer small medium large unikat industriell massenproduktion linear flächig räumlich grafik objekt installation" onclick="openDetailView('nameDesProjektOrdners')" href="#">-->
+<!--              <img class="vertImage projectImage" src="path">-->
+<!--              <div class="overlay">-->
+<!--                <p>-->
+<!--                  Titel des Projekts-->
+<!--                </p>-->
+<!--              </div>-->
+<!--            </a> &ndash;&gt;-->
+
+
+
+<!--            &lt;!&ndash; END OF BOTTOM CONTENT &ndash;&gt;-->
+<!--        </div>-->
+<!--        <div id="detailContent" style="width: 971px; height: 271.62px; margin-top: 271.62px; display: none; padding-left: 0.000456017px;">-->
+<!--            <div class="slick slick-initialized slick-slider" id="detailContentGallery"><button class="slick-prev slick-arrow" aria-label="Previous" type="button">Previous</button>-->
+<!--                <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 25000px; transform: translate3d(0px, 0px, 0px);"><div class="detailGalleryItem nonDraggable kontaktLandscape slick-slide slick-cloned" style="background:url(./projects/kontakt/72dpi_3landscape.jpg) center center no-repeat; background-size: cover" data-slick-index="-1" aria-hidden="true"></div><div class="detailGalleryItem nonDraggable kontaktLandscape slick-slide slick-current slick-active" style="background:url(./projects/kontakt/72dpi_0landscape.jpg) center center no-repeat; background-size: cover" data-slick-index="0" aria-hidden="false"></div><div class="detailGalleryItem nonDraggable kontaktLandscape slick-slide" style="background:url(./projects/kontakt/72dpi_00landscape.jpg) center center no-repeat; background-size: cover" data-slick-index="1" aria-hidden="true"></div><div class="detailGalleryItem nonDraggable kontaktLandscape slick-slide" style="background:url(./projects/kontakt/72dpi_1landscape.jpg) center center no-repeat; background-size: cover" data-slick-index="2" aria-hidden="true"></div><div class="detailGalleryItem nonDraggable kontaktLandscape slick-slide" style="background:url(./projects/kontakt/72dpi_2landscape.jpg) center center no-repeat; background-size: cover" data-slick-index="3" aria-hidden="true"></div><div class="detailGalleryItem nonDraggable kontaktLandscape slick-slide" style="background:url(./projects/kontakt/72dpi_3landscape.jpg) center center no-repeat; background-size: cover" data-slick-index="4" aria-hidden="true"></div><div class="detailGalleryItem nonDraggable kontaktLandscape slick-slide slick-cloned" style="background:url(./projects/kontakt/72dpi_0landscape.jpg) center center no-repeat; background-size: cover" data-slick-index="5" aria-hidden="true"></div><div class="detailGalleryItem nonDraggable kontaktLandscape slick-slide slick-cloned" style="background:url(./projects/kontakt/72dpi_00landscape.jpg) center center no-repeat; background-size: cover" data-slick-index="6" aria-hidden="true"></div><div class="detailGalleryItem nonDraggable kontaktLandscape slick-slide slick-cloned" style="background:url(./projects/kontakt/72dpi_1landscape.jpg) center center no-repeat; background-size: cover" data-slick-index="7" aria-hidden="true"></div><div class="detailGalleryItem nonDraggable kontaktLandscape slick-slide slick-cloned" style="background:url(./projects/kontakt/72dpi_2landscape.jpg) center center no-repeat; background-size: cover" data-slick-index="8" aria-hidden="true"></div><div class="detailGalleryItem nonDraggable kontaktLandscape slick-slide slick-cloned" style="background:url(./projects/kontakt/72dpi_3landscape.jpg) center center no-repeat; background-size: cover" data-slick-index="9" aria-hidden="true"></div></div></div>-->
+<!--                <button class="slick-next slick-arrow" aria-label="Next" type="button">Next</button></div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <script src="js/script.js">-->
+<!--    </script>-->
+<!--    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>-->
+<!--    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>-->
+<!--    <script type="text/javascript" src="js/slick.min.js"></script>-->
+<!--    <script type="text/javascript" src="js/pointer.js"></script>-->
+<!--    <script type="text/javascript">-->
+<!--        $(document).ready(function(){-->
+<!--            $('.slick').slick({-->
+<!--                dots: false,-->
+<!--                arrows: true,-->
+<!--                infinite: true,-->
+<!--                speed: 300,-->
+<!--                slidesToShow: 1,-->
+<!--                slidesToScroll: 1,-->
+<!--                centerMode: false,-->
+<!--                variableWidth: true,-->
+<!--                adaptiveHeight: false,-->
+<!--                lazyLoad: 'progressive',-->
+<!--                autoplay: false,-->
+<!--                autoplaySpeed: 3000,-->
+<!--                speed: 500-->
+<!--            });-->
+<!--        });-->
+
+<!--        //pointer init-->
+<!--        init_pointer({-->
+<!--            pointerColor: "#000", // Css color-->
+<!--            ringSize: 10, // Pixels-->
+<!--            ringClickSize: 7 // Pixels when clicking-->
+<!--        })-->
+<!--    </script>-->
+<!--</div>-->
+
+<script src="scripts/repere.js"></script>
 </body>
 </html>

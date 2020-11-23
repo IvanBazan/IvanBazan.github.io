@@ -22,3 +22,20 @@ main{
     justify-content: center;
     rotation: 45deg;
 }
+
+#bgSVG{
+    position: fixed;
+    fill: none;
+    width: calc(100vw - 40px);
+    height: calc(100vh - 40px);
+    padding: 18px;
+    stroke: white;
+    stroke-width: 3px;
+    z-index: 9999;
+    pointer-events: none;
+}
+#topContent {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}

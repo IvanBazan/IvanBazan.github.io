@@ -19,10 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b2d3aed-5823-42a3-b91c-b416080b9fbb" name="Default Changelist" comment="NEw page with formatting">
+    <list default="true" id="9b2d3aed-5823-42a3-b91c-b416080b9fbb" name="Default Changelist" comment="Refactoring">
+      <change afterPath="$PROJECT_DIR$/scripts/newWrapperExample.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/repere.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/sliderStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/sliderStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/styleIndex.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styleIndex.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +75,9 @@
       <updated>1604865831648</updated>
       <workItem from="1604865833235" duration="11214000" />
       <workItem from="1605274926327" duration="3463000" />
-      <workItem from="1605288268373" duration="28035000" />
+      <workItem from="1605288268373" duration="63124000" />
+      <workItem from="1605638733004" duration="37350000" />
+      <workItem from="1605963816292" duration="9505000" />
     </task>
     <task id="LOCAL-00001" summary="OG head">
       <created>1605302150522</created>
@@ -166,7 +170,175 @@
       <option name="project" value="LOCAL" />
       <updated>1605451606280</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="NEw page with formatting">
+      <created>1605456830739</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1605456830739</updated>
+    </task>
+    <task id="LOCAL-00015" summary="NEw page with formatting">
+      <created>1605457200491</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1605457200491</updated>
+    </task>
+    <task id="LOCAL-00016" summary="CSS first steps">
+      <created>1605458108062</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1605458108062</updated>
+    </task>
+    <task id="LOCAL-00017" summary="ToHome button">
+      <created>1605526192763</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1605526192764</updated>
+    </task>
+    <task id="LOCAL-00018" summary="ToHome button">
+      <created>1605527067969</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1605527067969</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Background color via @">
+      <created>1605527815011</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1605527815011</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Number guessing game added">
+      <created>1605546793915</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1605546793915</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Number guessing game added">
+      <created>1605557231426</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1605557231426</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Number guessing game added">
+      <created>1605559180029</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1605559180029</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Reset button added">
+      <created>1605559781165</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1605559781165</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Reset button added">
+      <created>1605561818869</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1605561818869</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Silly text assessment">
+      <created>1605614972028</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1605614972028</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Silly text assessment">
+      <created>1605645239690</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1605645239690</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Adding video to Slider">
+      <created>1605652958670</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1605652958670</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Adding video to Slider">
+      <created>1605652975574</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1605652975574</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Iframes Youtube">
+      <created>1605655596485</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1605655596485</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Iframes Youtube">
+      <created>1605656367161</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1605656367161</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Iframes Vimeo">
+      <created>1605657079069</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1605657079069</updated>
+    </task>
+    <task id="LOCAL-00032" summary="svg linkbar">
+      <created>1605713433964</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1605713433965</updated>
+    </task>
+    <task id="LOCAL-00033" summary="svg linkbar">
+      <created>1605713762518</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1605713762518</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Adaptable Imaging">
+      <created>1605718794071</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1605718794072</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Adaptable Imaging">
+      <created>1605719767262</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1605719767262</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Assesment Imaging">
+      <created>1605734739018</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1605734739019</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Refactoring">
+      <created>1605913941600</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1605913941600</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +354,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="OG head" />
@@ -193,17 +366,38 @@
     <MESSAGE value="Image link" />
     <MESSAGE value="Js intro: 2 page with list added" />
     <MESSAGE value="NEw page with formatting" />
-    <option name="LAST_COMMIT_MESSAGE" value="NEw page with formatting" />
+    <MESSAGE value="CSS first steps" />
+    <MESSAGE value="ToHome button" />
+    <MESSAGE value="Background color via @" />
+    <MESSAGE value="Number guessing game added" />
+    <MESSAGE value="Reset button added" />
+    <MESSAGE value="Silly text assessment" />
+    <MESSAGE value="Adding video to Slider" />
+    <MESSAGE value="Iframes Youtube" />
+    <MESSAGE value="Iframes Vimeo" />
+    <MESSAGE value="svg linkbar" />
+    <MESSAGE value="Adaptable Imaging" />
+    <MESSAGE value="Assesment Imaging" />
+    <MESSAGE value="Refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
   </component>
   <component name="WindowStateProjectService">
     <state x="522" y="236" key="#Notifications" timestamp="1605278088367">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="522" y="236" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1605278088367" />
+    <state x="527" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605651124491">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="527" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1605651124491" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604874561431">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1604874561431" />
+    <state x="152" y="114" width="1200" height="584" key="DiffContextDialog" timestamp="1605641453197">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="152" y="114" width="1200" height="584" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1605641453197" />
     <state x="647" y="310" key="Github.ShareDialog" timestamp="1605278118482">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -216,13 +410,29 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605278170590" />
-    <state x="355" y="125" key="Vcs.Push.Dialog.v2" timestamp="1605451611606">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1606139173908">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="355" y="125" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605451611606" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1606139173908" />
+    <state x="355" y="125" key="Vcs.Push.Dialog.v2" timestamp="1605913946953">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="355" y="125" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605913946953" />
+    <state x="479" y="0" width="578" height="824" key="find.popup" timestamp="1605642798266">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="479" y="0" width="578" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1605642798266" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1605451291412">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="600" height="428" key="javadoc.popup/0.0.1536.824@0.0.1536.824" timestamp="1605451291412" />
+    <state x="410" y="139" width="700" height="530" key="recent.locations.popup" timestamp="1606139176597">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="410" y="139" width="700" height="530" key="recent.locations.popup/0.0.1536.824@0.0.1536.824" timestamp="1606139176597" />
+    <state x="415" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1605734723251">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="415" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1605734723251" />
   </component>
 </project>
