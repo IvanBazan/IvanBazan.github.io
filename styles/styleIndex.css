@@ -22,27 +22,74 @@ body{
 
 #topWrapper {
     width: 100%;
-    height: calc(31% - 3px);
+    height: calc(90% - 3px);
     margin-top: 0;
     margin-bottom: 0;
     border: red 2px solid;
     display: flex;
+    overflow: hidden;
 }
 
 #navigation {
-    width: calc(35% - 5px);
-    display: block;
+    /*width: calc(75% - 5px);*/
+    flex-basis: calc(75% - 5px);
+    /*display: block;*/
     position: relative;
     overflow: hidden;
     border: dodgerblue 2px solid;
+    display: inline-flex;
+}
+
+.emptyNavContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+#logoBox{
+    flex: 0 0 50%;
+    margin: 3%;
+    align-self: flex-end;
+    flex-grow: 1;
+    border: white 3px solid;
+}
+
+#logoBox img{
+    /*margin: auto;*/
+    width: 90%;
 }
 
 #topContent {
-    flex-grow: 1;
-    display: block;
+    /*flex-grow: 1;*/
+    /*display: inline-flex;*/
+    align-items: center;
     position: relative;
     overflow: hidden;
     border: green 2px solid;
+    display: inline-block
+}
+
+#topLabel p{
+    margin: 10px;
+    width: 80%;
+    height: 90%;
+    font-family: "Rubik Mono One", sans-serif;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgba(213, 244, 87, 0.84) 2px 2px 0px;
+}
+
+#topContent ul{
+    display: inline;
+    overflow: hidden;
+    font-family: "Rubik Mono One", sans-serif;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(96, 128, 214);
+    text-shadow: rgb(244, 181, 87) 2px 2px 0px;
 }
 
 #bottomWrapper {
@@ -57,7 +104,7 @@ body{
 }
 
 #bottomCorner {
-    width: calc(35% - 2px);
+    width: calc(75% - 2px);
     display: block;
     position: relative;
     overflow: hidden;
@@ -84,6 +131,13 @@ body{
     pointer-events: none;
 }
 
+.shade{
+    float: left;
+    max-height:100%;
+    background-color: rgb(155, 38, 88);
+    padding: 0;
+}
+
 /*main{*/
 /*    width: 100%;*/
 /*    height: 100%;*/
@@ -92,15 +146,7 @@ body{
 /*    justify-content: center;*/
 /*}*/
 
-/*.box{*/
-/*    block-size: 40vw;*/
-/*    inline-size: 40vw;*/
-/*    border: white 5px solid;*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*    rotation: 45deg;*/
-/*}*/
+
 
 
 
@@ -109,7 +155,6 @@ body{
 /*    position: relative;*/
 /*    overflow: hidden;*/
 /*}*/
-
 
 
 

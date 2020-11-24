@@ -1,182 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <title>new index page</title>
-    <link rel="stylesheet" type="text/css" href="styles/styleIndex.css">
+    <meta charset="utf-8">
+    <title>My test page</title>
+    <meta property="og:image" content="https://ivanbazan.github.io/images/cat3.png">
+    <meta property="og:description" content="Only the best content here">
+    <meta property="og:title" content="Ivan Bazanov test pages">
+    <meta name="twitter:title" content="Ivan Bazanov test pages">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link href="styles/styleOld.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+<header>
+    <h1>You are cool</h1>
+</header>
+<h2>
+    <div class="border"><a href=border.html>Добро пожаловать на мою страничку</a></div>
+</h2>
 
-
-<!--&lt;!&ndash;        <div class="box">&ndash;&gt;-->
-<!--&lt;!&ndash;&lt;!&ndash;            <img src="images/index2/ivanLogo400.png">&ndash;&gt;&ndash;&gt;-->
-<!--&lt;!&ndash;        </div>&ndash;&gt;-->
-
-<svg id="bgSVG">
-    <line id="ver" x1="35%" y1="31%" x2="35%" y2="0%" vector-effect="non-scaling-stroke"></line>
-    <line id="hor" x1="35%" y1="31%" x2="100%" y2="31%" vector-effect="non-scaling-stroke"></line>
-    <line id="dia" x1="35%" y1="31%" x2="0%" y2="90%" vector-effect="non-scaling-stroke"></line>
+<svg class="linkBar" width="100%" height="100%">
+    <rect width="100%" height="100%" fill="red" />
+    <circle cx="100%" cy="100%" r="55%" fill="amber" stroke="black" />
+    <circle cx="100%" cy="100%" r="50%" fill="blue" stroke="black" />
+    <polygon points="120,0 240,225 0,225" fill="green"/>
+    <text x="50" y="100" font-family=Verdana font-size="55"
+          fill="white" stroke="black" stroke-width="2">
+        NEXT PAGE
+    </text>
 </svg>
 
-<div id="mainWrapper">
-    <div id="topWrapper">
-        <div id="navigation">
-<!--            <table>-->
-<!--                <tbody><tr>-->
-<!--                    <td>-->
-<!--                        <button id="homeBtn" class="active navButton" onclick="btnHandler(this)" name="homeButton">-->
-<!--                            <img src="images/Logo_Lines.svg" style="padding-left: 1px;">-->
-<!--                        </button>-->
-<!--                    </td><td>-->
-<!--                    <button id="projectsBtn" class="inactive navButton" onclick="btnHandler(this)" name="projectsButton">-->
-<!--                        <span style="float: left; line-height: 18px;"> →</span><span style="line-height: 22px;">​ СТРАНИЧКИ &nbsp;</span>-->
-<!--                    </button>-->
-<!--                </td>-->
-<!--                </tr>-->
-<!--                <tr>-->
-<!--                    <td>-->
-<!--                        &lt;!&ndash; BACK BUTTON &ndash;&gt;-->
-<!--                        <button id="backBtn" class="hidden" onclick="backButton()" name="backButton" style="opacity: 0;">-->
-<!--                            <span>←</span>-->
-<!--                        </button>-->
-<!--                    </td><td>-->
-<!--                    <button id="atelierBtn" class="inactive navButton" onclick="btnHandler(this)" name="atelierButton">-->
-<!--                        <span style="float: left; line-height: 18px;"> →</span><span style="line-height: 22px;">КОНТАКТЫ&nbsp;</span>-->
-<!--                    </button>-->
-<!--                </td>-->
-<!--                </tr>-->
-<!--                </tbody></table>-->
-        </div>
-        <div id="topContent">
-<!--            <div id="topHome" class="topContentContainer p0" style="height: 138.38px; margin-top: 0px; margin-left: -0.000452371px;">-->
-<!--                <div class="textContainer">-->
-<!--                    &lt;!&ndash; <h1><img src="src/svg/Logo_Text_Inline.svg" alt="Atelier Lomann GmbH">&emsp;ATELIER LOMANN GmbH</h1> &ndash;&gt;-->
-<!--                    <h1>¬ ​ ​Atelier Lomann</h1>-->
-<!--                    &lt;!&ndash; <h1>ATELIER LOMANN GmbH</h1> &ndash;&gt;-->
-<!--                </div>-->
-<!--                <div class="textContainer" style="font-family:Lomann-Symbols; text-align:right;">-->
-<!--                    A D G J-->
-<!--                </div>-->
-<!--                &lt;!&ndash; <div>-->
-<!--                  <img class="vertImage" src="src/svg/L.svg" alt="L">-->
-<!--                </div>-->
-<!--                <div>-->
-<!--                  <img class="vertImage" src="src/svg/M.svg" alt="M">-->
-<!--                </div> &ndash;&gt;-->
-<!--            </div>-->
-<!--            <div id="topProjects" class="topContentContainer p1" style="height: 138.38px; margin-top: -6e-45px; margin-left: 1170.96px;">-->
-<!--                <div class="textContainer">-->
-<!--                    <p id="filterText" style="margin-top: 0px">Filter</p>-->
-<!--                </div>-->
-<!--                &lt;!&ndash; Filter system &ndash;&gt;-->
-<!--                <div id="filterContainer" onmouseout="changeFilterText('Filter')">-->
-<!--                    <ul style="margin-left: -1px;margin-top: -1px">-->
-<!--                        <li class="filterOne filterNeutral top" id="small" onmouseover="changeFilterText('Klein')">-->
-<!--                            <button onclick="filterSetActive(this, 'filterOne')"><span style="padding-left: 1px;">A</span></button>-->
-<!--                        </li>-->
-<!--                        <li class="filterOne filterInactive middle" id="medium" onmouseover="changeFilterText('Mittel')">-->
-<!--                            <button onclick="filterSetActive(this, 'filterOne')"><span style="padding-left: 1px;">B</span></button>-->
-<!--                        </li>-->
-<!--                        <li class="filterOne filterInactive bottom" id="large" onmouseover="changeFilterText('Gross')">-->
-<!--                            <button onclick="filterSetActive(this, 'filterOne')"><span style="padding-left: 1px;">C</span></button>-->
-<!--                        </li>-->
-<!--                    </ul><ul style="margin-top: -1px">-->
-<!--                    <li class="filterTwo filterNeutral top" id="unikat" onmouseover="changeFilterText('Unikat')">-->
-<!--                        <button onclick="filterSetActive(this, 'filterTwo')"><span style="padding-left: 1px;">D</span></button>-->
-<!--                    </li>-->
-<!--                    <li class="filterTwo filterInactive middle" id="industriell" onmouseover="changeFilterText('Industriell')">-->
-<!--                        <button onclick="filterSetActive(this, 'filterTwo')"><span style="padding-left: 1px;">E</span></button>-->
-<!--                    </li>-->
-<!--                    <li class="filterTwo filterInactive bottom" id="massenproduktion" onmouseover="changeFilterText('Massenproduktion')">-->
-<!--                        <button onclick="filterSetActive(this, 'filterTwo')"><span style="padding-left: 1px;">F</span></button>-->
-<!--                    </li>-->
-<!--                </ul><ul style="margin-top: -1px">-->
-<!--                    <li class="filterThree filterNeutral top" id="linear" onmouseover="changeFilterText('Linear')">-->
-<!--                        <button onclick="filterSetActive(this, 'filterThree')"><span style="padding-left: 1px;">G</span></button>-->
-<!--                    </li>-->
-<!--                    <li class="filterThree filterInactive middle" id="flächig" onmouseover="changeFilterText('Flächig')">-->
-<!--                        <button onclick="filterSetActive(this, 'filterThree')"><span style="padding-left: 1px;">H</span></button>-->
-<!--                    </li>-->
-<!--                    <li class="filterThree filterInactive bottom" id="räumlich" onmouseover="changeFilterText('Räumlich')">-->
-<!--                        <button onclick="filterSetActive(this, 'filterThree')"><span style="padding-left: 1px;">I</span></button>-->
-<!--                    </li>-->
-<!--                </ul><ul style="margin-left: 2px; margin-top: -1px">-->
-<!--                    <li class="filterFour filterNeutral top" id="grafik" onmouseover="changeFilterText('Grafik')">-->
-<!--                        <button onclick="filterSetActive(this, 'filterFour')"><span style="padding-left: 1px;">J</span></button>-->
-<!--                    </li>-->
-<!--                    <li class="filterFour filterInactive middle" id="objekt" onmouseover="changeFilterText('Objekt')">-->
-<!--                        <button onclick="filterSetActive(this, 'filterFour')"><span style="padding-left: 1px;">K</span></button>-->
-<!--                    </li>-->
-<!--                    <li class="filterFour filterInactive bottom" id="installation" onmouseover="changeFilterText('Installation')">-->
-<!--                        <button onclick="filterSetActive(this, 'filterFour')"><span style="padding-left: 1px;">L</span></button>-->
-<!--                    </li>-->
-<!--                </ul>-->
-<!--                </div>-->
+<button id="b3"> 3, Green page with birds</button>
+<img src="images/firefox-icon.png" alt="The Firefox logo: a flaming fox surrounding the Earth.">
+<!--<div class="flier4" onclick="window.open('2.html','mywindow');" style="cursor: pointer;">&nbsp;><a href=2.html><img src="images/firefox-icon.png" alt="The Firefox logo: a flaming fox surrounding the Earth."></a></div>-->
+<p>At Mozilla, we’re a global community of</p>
 
-<!--            </div>-->
-<!--            <div id="topAtelier" class="topContentContainer p2" style="height: 138.38px; margin-top: 338.376px; margin-left: 0px;">-->
-<!--                &lt;!&ndash; <div class="textContainer">-->
-<!--                    <h1>ATELIER LOMANN GmbH</h1>-->
-<!--                 </div>&ndash;&gt;-->
-<!--                <div class="textContainer" style="padding-left: 14px;">-->
-<!--                    <table>-->
-<!--                        <tbody><tr>-->
-<!--                            <td>¬  </td>-->
-<!--                            <td>Atelier Lomann GmbH</td>-->
-<!--                        </tr>-->
+<!--<div class="further-info">-->
+<!--    <a href="https://www.mozilla.org/en-US/firefox/new/">-->
+<!--        <img srcset="images/index2/firefoxLogo120.png 120w,-->
+<!--                         images/index2/firefoxLogo400.png 400w"-->
+<!--             sizes="(max-width: 480px) 400px"-->
+<!--             src="images/index2/firefoxLogo400.png" alt="mozilla logo">-->
+<!--    </a>-->
+<!--    <a href="https://www.mozilla.org/">-->
+<!--        <img srcset="images/index2/ivanLogo120.png 120w,-->
+<!--                         images/index2/ivanLogo400.png 400w"-->
+<!--             sizes="(max-width: 480px) 400px"-->
+<!--             src="images/index2/ivanLogo400.png" alt="Ivan Logo">-->
+<!--    </a>-->
+<!--    <a href="https://addons.mozilla.org/">-->
+<!--        <img srcset="images/index2/dinoHead120.png 120w,-->
+<!--                         images/index2/dinoHead400.png 400w"-->
+<!--             sizes="(max-width: 480px) 400px"-->
+<!--             src="images/index2/dinoHead400.png" alt="mozilla dinozaur">-->
+<!--    </a>-->
+<!--    <a href="https://developer.mozilla.org/en-US/">-->
+<!--        <img srcset="images/index2/goat120.png 120w,-->
+<!--                         images/index2/goat400.png 400w"-->
+<!--             sizes="(max-width: 480px) 400px"-->
+<!--             src="images/index2/goat400.png" alt="grumpy goat">-->
+<!--    </a>-->
+<!--    <div class="clearfix"></div>-->
+<!--</div>-->
 
-<!--                        <tr>-->
-<!--                            <td>→  </td>-->
-<!--                            <td><a href="https://goo.gl/maps/vGX7mDNKmjXxtGKz8"> Althardstrasse 147</a></td>-->
-<!--                        </tr>-->
-<!--                        <tr>-->
-<!--                            <td></td>-->
-<!--                            <td>8105 Regensdorf (CH)</td>-->
-<!--                        </tr>-->
-<!--                        <tr>-->
-<!--                            <td><br></td>-->
-<!--                        </tr>-->
-<!--                        <tr>-->
-<!--                            <td>(T)</td>-->
-<!--                            <td>+41 (0) 43 557 53 95</td>-->
-<!--                        </tr>-->
-<!--                        <tr>-->
-<!--                            <td>(E)</td>-->
-<!--                            <td><a href="mailto:info@atelier-lomann.ch">info@atelier-lomann.ch</a></td>-->
-<!--                        </tr>-->
-<!--                        </tbody></table>-->
-<!--                </div>-->
+<!--<div class="red-panda">-->
+<!--    <picture>-->
+<!--        <source media="(max-width: 599px)" srcset="images/index2/redpandasmay600.jpg">-->
+<!--        <source media="(min-width: 600px)" srcset="images/index2/redpandasmay1200.jpg">-->
+<!--        <img src="images/index2/redpandasmay1200.jpg" alt="Cool red panda">-->
+<!--    </picture>-->
+<!--</div>-->
 
-<!--                <div class="textContainer mobileHidden" style="padding-left: 14px;">-->
-<!--                    <table>-->
-<!--                        <tbody><tr>-->
-<!--                            <td>Founded by:<br> </td>-->
-<!--                            <td> Joel Tweitmann<br> Randy Looser</td>-->
-<!--                        </tr>-->
-<!--                        </tbody></table>-->
-<!--                </div>-->
+<p>working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
 
-<!--            </div>-->
-<!--            <div id="topDetailContent" style="margin-left: 100vw;">-->
-<!--                <p id="detailDescription">POS Monolith<br>-->
-<!--                    Design Studie<br>-->
-<!--                    000x000x000 (mm)-->
+<p>Read the <a href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a> to learn even more about the values and principles that guide the pursuit of our mission.</p>
 
-<!--                    Text hier-->
-<!--                    <a id="moreDetailsLink" onclick="showMoreDetailText()"><img id="moreDetailsImage" src="../src/svg/LM_plus.svg"></a></p>-->
-<!--                <div id="detailTag">-->
-<!--                    <img id="detailTagImage" src="projects/kontakt/label.svg">-->
-<!--                </div>-->
-<!--                <p id="additionalDetailDescription"></p>-->
-<!--            </div>-->
-        </div>
-    </div>
-    <div id="bottomWrapper">
-        <div id="bottomCorner"></div>
-        <div id="bottomContent"></div>
-    </div>
-</div>
+<button id="changeButton">Change user</button>
 
-<script src="scripts/repere.js"></script>
+<script src="scripts/main.js"></script>
 </body>
 </html>
